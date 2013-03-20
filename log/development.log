@@ -5143,3 +5143,4 @@ NoMethodError (undefined method `current_user=' for #<SessionsController:0x007fc
   Rendered /Users/rafaelwilliams/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
   Rendered /Users/rafaelwilliams/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
   Rendered /Users/rafaelwilliams/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.2ms)
+Connecting to database specified by database.yml
