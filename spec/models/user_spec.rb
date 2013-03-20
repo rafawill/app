@@ -22,6 +22,8 @@ describe User do
   it { should respond_to(:password_digest) }
   it { should respond_to(:password) }
   it { should respond_to(:password_confirmation) }
+  it { should respond_to(:remember_token) }
+  it { should respond_to(:authenticate) } 
 
   describe "when name is not present" do
     before { @user.name = " " }
@@ -84,5 +86,9 @@ describe User do
       @user.save
       @user.reload.email.should == mixed_case_email.downcase
     end
+  end
+  describe "remember token" do
+    before { @user.save }
+    its(:remember_token) { should_not be_blank }
   end
 end
