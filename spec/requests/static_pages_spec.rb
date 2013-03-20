@@ -75,4 +75,3 @@ describe "Static pages" do
     page.should have_selector 'h1', text: 'Sample App'
   end
 end
-
